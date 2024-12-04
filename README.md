@@ -14,7 +14,7 @@ Simulated housing data: A dataset containing various attributes related to housi
 - Flask
 
 ### Model Development and Training
-The model was built using Python's scikit-learn linear regression model. The model was training using the housing dataset and saved as a pickle file.
+The model was built using Python's scikit-learn linear regression model. The model was trained using the housing dataset and saved as a pickle file.
 
 ### Model Deployment
 

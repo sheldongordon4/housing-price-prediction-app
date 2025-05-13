@@ -2,16 +2,22 @@
 
 ## Project Overview
 
-The main goal of this project is to create and deploy a machine learning model to predict housing prices using features such as the number of bedrooms, square footage, and the age of the house. This model is designed to deliver price predictions and can aid potential buyers and real estate professionals in making well-informed decisions.
+Housing Price Prediction App is a machine learning-powered web application built with Flask. It predicts housing prices based on user inputs such as number of bedrooms, square footage, and year built. The project uses a linear regression model trained on simulated housing data and provides real-time predictions through a user-friendly web interface.
 
+### Key Features:
+
+- ML model trained with scikit-learn
+- Model saved and loaded using Pickle
+- Web interface created with Flask
+- Inputs: bedrooms, square footage, house age
+- Real-time price prediction
+
+### Tech Stack:
+
+Python, Flask, scikit-learn, HTML/CSS
 ### Data Sources
 
 Simulated housing data: A dataset containing various attributes related to housing prices, including the number of bedrooms, square footage, year built, and price.
-
-### Tools
-
-- Python
-- Flask
 
 ### Model Development and Training
 The model was built using Python's scikit-learn linear regression model. The model was trained using the housing dataset and saved as a pickle file.
